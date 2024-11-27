@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register New User</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="box">
+  <div class="form-container">
+    <h2>Create an Account<h2>
+    </div>
+    <div class="form-row">
+      <div>
+        <label>First name *</label>
+        <input type="text" placeholder="Enter your first name">
+      </div>
+      <div>
+        <label>Last name *</label>
+        <input type="text" placeholder="Enter your last name">
+      </div>
+    </div>
+
+    <div class="form-row">
+      <div>
+        <label>Email *</label>
+        <input type="email" placeholder="Enter your email">
+      </div>
+    </div>
+
+    <div class="form-row">
+      <div>
+        <label>Password *</label>
+        <input type="password" placeholder="Enter your password">
+      </div>
+      <div>
+        <label>Confirm Password *</label>
+        <input type="password" placeholder="Enter your password again">
+      </div>
+    </div>
+
+    <div class="form-row">
+      <div class="gender-section">
+        <label>Gender:</label>
+        <label><input type="radio" name="gender"> Male
+        <input type="radio" name="gender"> Female</label>
+      </div>
+
+      <!-- Move hobbies to the right of gender -->
+      <div class="hobbies-section">
+        <label>Hobbies:</label>
+        <label><input type="checkbox" name="hobbies"> Music
+        <input type="checkbox" name="hobbies"> Sports
+        <input type="checkbox" name="hobbies"> Travel
+      <input type="checkbox" name="hobbies"> Movies</label>
+      </div>
+    </div>
+
+    <div class="form-row">
+      <div>
+        <label>Source of Income</label>
+        <select>
+          <option>Employed</option>
+          <option>Self-Employed</option>
+          <option>Student</option>
+        </select>
+      </div>
+      <div>
+        <label>Income</label>
+        <input type="range" min="0" max="100000" value="20000">
+        <span class="income-value">20K</span>
+      </div>
+    </div>
+
+    <div class="form-row">
+      <div>
+        <label>Upload Profile Picture</label>
+        <input type="file">
+      </div>
+      <div>
+        <label>Age</label>
+        <input type="number" value="18" min="0">
+      </div>
+    </div>
+
+    <div class="form-row">
+      <div>
+        <label>Bio</label>
+        <textarea rows="4" placeholder="Enter your bio"></textarea>
+      </div>
+    </div>
+
+    <button class="submit-btn">Create</button>
+  </div>
+</body>

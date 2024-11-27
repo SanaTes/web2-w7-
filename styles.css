@@ -1,0 +1,120 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color:white;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden; 
+}
+
+
+.form-container {
+  background-color: gainsboro;
+
+  border-radius: 0px;
+  padding: 1px;
+  width: 620px;
+  
+  
+}
+
+.box{
+  width: 620px;
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  background-color: white;
+  border: 20px solid blue; 
+  border-radius: 20px;
+  padding: 0.5px;
+ 
+
+  }
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: green;
+}
+
+
+.form-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-bottom: 19px;
+  margin-top: 10px;
+
+}
+
+.form-row div {
+  flex: 1;
+  min-width: 150px;
+}
+
+.gender-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; 
+}
+
+.hobbies-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+label {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 0px;
+  color: green;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+select,
+textarea,
+input[type="file"] {
+  width: 100%;
+  padding: 0px;
+  border: 1px solid black;
+  border-radius: 0px;
+  font-size: 14px;
+}
+
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+
+
+
+.income-value {
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+.submit-btn {
+ 
+  color: green;
+  border: none;
+  padding: 10px 150px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 100%;
+  margin-top: 15px;
+
+}
+
+.submit-btn:hover {
+  background-color:gainsboro;
+  height: 60px;
+
+}

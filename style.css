@@ -1,0 +1,65 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+h2, h3 {
+    color: black;
+    margin-bottom: 1px;
+}
+
+.form-container {
+    background-color: ghostwhite;
+    border-radius: 10px;
+    padding: 30px;
+    max-width: 600px;
+    width: 100%;
+    border: 20px solid gray
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.section {
+    margin-bottom: 2px;
+}
+
+
+
+input[type="text"], input[type="email"], input[type="tel"], input[type="url"], input[type="file"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+button {
+    padding: 12px;
+    background-color: rgb(81, 81, 184);
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: blue;
+}
+
+
+
